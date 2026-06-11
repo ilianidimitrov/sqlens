@@ -1,7 +1,5 @@
 # SQLens
 
-**Live demo:** [sqlens-nu.vercel.app](https://sqlens-nu.vercel.app)
-
 SQLens is a browser-based SQL query explainer. Paste a query and get an instant breakdown of clauses, tables, joins, execution order, and common performance warnings — no database connection required.
 
 ## What it does
@@ -41,19 +39,6 @@ Open [http://localhost:3000](http://localhost:3000).
 npm run build
 npm start
 ```
-
-## Deploy to Vercel
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ilianidimitrov/sqlens)
-
-Or with the Vercel CLI:
-
-```bash
-npm i -g vercel
-vercel
-```
-
-The project includes a `vercel.json` with security headers and `fra1` region preference.
 
 ## How it works
 
