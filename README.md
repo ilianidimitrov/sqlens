@@ -1,5 +1,7 @@
 # SQLens
 
+**Live demo:** [sqlens-xi.vercel.app](https://sqlens-xi.vercel.app)
+
 SQLens is a browser-based SQL query explainer. Paste a query and get an instant breakdown of clauses, tables, joins, execution order, and common performance warnings — no database connection required.
 
 ## What it does
