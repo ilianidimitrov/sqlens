@@ -20,6 +20,10 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: 'SQLens — Visual SQL Query Explainer',
   description: 'Break down SQL queries visually with plain-language explanations',
+  icons: {
+    icon: [{ url: '/icon.svg', type: 'image/svg+xml' }, { url: '/favicon.ico' }],
+    apple: '/apple-icon.png',
+  },
 };
 
 export function generateStaticParams() {
