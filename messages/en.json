@@ -1,0 +1,82 @@
+{
+  "app": {
+    "title": "SQLens",
+    "subtitle": "Visual SQL Query Explainer"
+  },
+  "input": {
+    "placeholder": "Paste your SQL query here...",
+    "paste": "Paste",
+    "clear": "Clear",
+    "examples": "Load Example",
+    "charCount": "{count} characters",
+    "hint": "Ctrl+Enter to parse immediately"
+  },
+  "explain": {
+    "complexity": {
+      "simple": "Simple",
+      "moderate": "Moderate",
+      "complex": "Complex"
+    },
+    "subqueries": "{count, plural, one {# subquery} other {# subqueries}}",
+    "noQuery": "Paste a SQL query above to get started",
+    "queryType": "Query Type",
+    "dialect": "Dialect"
+  },
+  "clauses": {
+    "title": "Clause Breakdown",
+    "empty": "Paste a SQL query above to see clause breakdown",
+    "SELECT": "SELECT — Columns to retrieve",
+    "FROM": "FROM — Source tables",
+    "JOIN": "JOIN — Table relationship",
+    "WHERE": "WHERE — Row filter condition",
+    "GROUP_BY": "GROUP BY — Aggregation groups",
+    "HAVING": "HAVING — Group filter",
+    "ORDER_BY": "ORDER BY — Sort direction",
+    "LIMIT": "LIMIT — Maximum rows",
+    "OFFSET": "OFFSET — Skip rows",
+    "WITH": "WITH — Common Table Expression",
+    "SUBQUERY": "SUBQUERY — Nested query"
+  },
+  "diagram": {
+    "title": "Table Relationships",
+    "empty": "No tables found in query",
+    "singleTable": "Single table — no joins",
+    "joinIndex": "Join index",
+    "fullscreen": "Expand diagram",
+    "exitFullscreen": "Exit"
+  },
+  "execution": {
+    "title": "Execution Order",
+    "play": "Play",
+    "reset": "Reset",
+    "stepOf": "Step {current} of {total}"
+  },
+  "columns": {
+    "title": "Columns by Table",
+    "aggregated": "Aggregated",
+    "aliasedAs": "as {alias}",
+    "empty": "No columns found"
+  },
+  "warnings": {
+    "title": "Warnings & Suggestions",
+    "none": "No issues detected",
+    "severities": {
+      "error": "Error",
+      "warning": "Warning",
+      "info": "Info"
+    }
+  },
+  "export": {
+    "copy": "Copy SQL",
+    "copyFormatted": "Copy Formatted",
+    "share": "Share Link",
+    "download": "Download PNG",
+    "copied": "Copied!",
+    "linkCopied": "Link copied!"
+  },
+  "errors": {
+    "invalidSql": "Invalid SQL syntax",
+    "parseError": "Could not parse query",
+    "emptyQuery": "Enter a SQL query"
+  }
+}
